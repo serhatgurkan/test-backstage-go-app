@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world-service
+  description: A simple Hello World web service written in Go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: example-team
